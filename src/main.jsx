@@ -4,12 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import Greeting from './Greeting.jsx' 
 import Html from './html.jsx'
+import Render from './rendering.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <Greeting/>
     <Html/>
-
+    <Render/>
   </StrictMode>,
 )
